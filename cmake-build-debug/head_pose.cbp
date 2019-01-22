@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="head_pose"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\dlib\;CMake Files\..\..\dlib\dlib\;CMake Files\..\..\dlib\dlib\cmake_utils\;CMake Files\..\..\opencv-3.4.1\;CMake Files\..\..\opencv-3.4.1\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="head_pose">
+				<Option output="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/head_pose" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/build"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include/opencv"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/core/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/flann/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/imgproc/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/ml/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/objdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/phase_unwrapping/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/photo/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/plot/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/reg/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/surface_matching/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/video/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xphoto/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/dnn/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/fuzzy/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/hfs/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/img_hash/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/imgcodecs/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/shape/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/videoio/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xobjdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/highgui/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/superres/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/ts/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/bioinspired/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/dnn_objdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/dpm/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/features2d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/line_descriptor/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/saliency/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/text/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/calib3d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/ccalib/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/datasets/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/rgbd/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/stereo/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/structured_light/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/videostab/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xfeatures2d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/ximgproc/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/aruco/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/bgsegm/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/optflow/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/stitching/include"/>
+					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 head_pose"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="head_pose/fast">
+				<Option output="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/head_pose" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/build"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include/opencv"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/core/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/flann/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/imgproc/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/ml/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/objdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/phase_unwrapping/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/photo/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/plot/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/reg/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/surface_matching/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/video/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xphoto/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/dnn/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/fuzzy/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/hfs/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/img_hash/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/imgcodecs/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/shape/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/videoio/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xobjdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/highgui/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/superres/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/ts/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/bioinspired/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/dnn_objdetect/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/dpm/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/features2d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/line_descriptor/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/saliency/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/text/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/calib3d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/ccalib/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/datasets/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/rgbd/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/stereo/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/structured_light/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/videostab/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xfeatures2d/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/ximgproc/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/aruco/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/bgsegm/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/optflow/include"/>
+					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/stitching/include"/>
+					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 head_pose/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dlib">
+				<Option output="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDLIB_JPEG_STATIC"/>
+					<Add directory="/usr/X11R6/include"/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 dlib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dlib/fast">
+				<Option output="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/libdlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDLIB_JPEG_STATIC"/>
+					<Add directory="/usr/X11R6/include"/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 dlib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/main.cpp">
+			<Option target="head_pose"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/base64/base64_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/base64/base64_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bigint/bigint_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bigint/bigint_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bigint/bigint_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bigint/bigint_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bit_stream/bit_stream_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bsp/bsp.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/bsp/bsp.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/cuda/cpu_dlib.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/cuda/cpu_dlib.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/cuda/tensor_tools.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/cuda/tensor_tools.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/data_io/image_dataset_metadata.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/data_io/image_dataset_metadata.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/data_io/mnist.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/data_io/mnist.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_extensions.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_extensions.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/dir_nav/dir_nav_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcapimin.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcapistd.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jccoefct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jccolor.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcdctmgr.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jchuff.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jchuff.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcinit.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcmainct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcmarker.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcmaster.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcomapi.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcparam.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcphuff.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcprepct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jcsample.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdapimin.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdapistd.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdatadst.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdatasrc.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdcoefct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdcolor.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jddctmgr.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdhuff.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdhuff.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdinput.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdmainct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdmarker.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdmaster.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdmerge.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdphuff.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdpostct.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jdsample.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jerror.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jerror.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jfdctflt.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jfdctfst.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jfdctint.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jidctflt.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jidctfst.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jidctint.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jidctred.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jmemmgr.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jmemnobs.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jquant1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jquant2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/external/libjpeg/jutils.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/filtering/kalman_filter.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/filtering/kalman_filter.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/global_optimization/global_function_search.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/global_optimization/global_function_search.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_core/gui_core_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_core/gui_core_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_core/gui_core_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_core/gui_core_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/base_widgets.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/base_widgets.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/canvas_drawing.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/canvas_drawing.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/drawable.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/drawable.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/fonts.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/fonts.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/style.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/style.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/widgets.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/gui_widgets/widgets.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_loader/jpeg_loader.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_loader/jpeg_loader.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_loader/png_loader.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_loader/png_loader.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_saver/save_jpeg.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_saver/save_jpeg.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_saver/save_png.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/image_saver/save_png.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/linker/linker_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/linker/linker_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/extra_logger_headers.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/extra_logger_headers.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/logger_config_file.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/logger_config_file.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/logger_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/logger/logger_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/md5/md5_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/md5/md5_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/misc_api/misc_api_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/misc_api/misc_api_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/misc_api/misc_api_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/misc_api/misc_api_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_http.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_http.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_iostream.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_iostream.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_kernel.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/server/server_kernel.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_extensions.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_extensions.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockets/sockets_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockstreambuf/sockstreambuf.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockstreambuf/sockstreambuf.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/stack_trace.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/stack_trace.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/svm/auto.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/svm/auto.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/test_for_odr_violations.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/test_for_odr_violations.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/async.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/async.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/multithreaded_object_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/multithreaded_object_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/thread_pool_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/thread_pool_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threaded_object_extension.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threaded_object_extension.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_2.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_2.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_shared.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/threads/threads_kernel_shared.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/timer/timer.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/timer/timer.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/tokenizer/tokenizer_kernel_1.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/unicode/unicode.cpp">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/dlib/dlib/unicode/unicode.h">
+			<Option target="dlib"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/find_blas.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/release_build_by_default">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/find_blas.cmake">
+			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../opencv-3.4.1/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.1\build\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../opencv-3.4.1/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.1\build\"/>
+		</Unit>
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../opencv-3.4.1/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.4.1\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

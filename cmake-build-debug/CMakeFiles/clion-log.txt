@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/sravanchennuri/CLionProjects/head_pose
+-- Using CMake version: 3.9.6
+-- Compiling dlib version: 19.16.99
+-- Searching for BLAS and LAPACK
+-- Searching for BLAS and LAPACK
+-- Checking for module 'cblas'
+--   No package 'cblas' found
+-- Checking for module 'lapack'
+--   No package 'lapack' found
+-- Found OpenBLAS library
+-- Found LAPACK library
+-- Building a C++11 test project to see if your compiler supports C++11
+-- C++11 activated.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug

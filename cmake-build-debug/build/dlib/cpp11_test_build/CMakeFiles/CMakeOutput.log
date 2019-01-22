@@ -1,0 +1,26 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/build/dlib/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59a7c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_59a7c.dir/build.make CMakeFiles/cmTC_59a7c.dir/build
+Building CXX object CMakeFiles/cmTC_59a7c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_59a7c.dir/src.cxx.o -c /Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/build/dlib/cpp11_test_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_59a7c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59a7c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_59a7c.dir/src.cxx.o  -o cmTC_59a7c 
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/build/dlib/cpp11_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e075/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e075.dir/build.make CMakeFiles/cmTC_7e075.dir/build
+Building CXX object CMakeFiles/cmTC_7e075.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c++0x -o CMakeFiles/cmTC_7e075.dir/src.cxx.o -c /Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/build/dlib/cpp11_test_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7e075
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e075.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX0X -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e075.dir/src.cxx.o  -o cmTC_7e075 
+
+Source file was:
+int main() { return 0; }

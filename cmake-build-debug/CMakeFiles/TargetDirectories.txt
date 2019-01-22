@@ -1,0 +1,8 @@
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/CMakeFiles/head_pose.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/CMakeFiles/rebuild_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/CMakeFiles/edit_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/CMakeFiles/rebuild_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/CMakeFiles/edit_cache.dir
+/Users/sravanchennuri/CLionProjects/head_pose/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir
