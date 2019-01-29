@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/build"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include/opencv"/>
@@ -92,12 +94,11 @@
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/optflow/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/stitching/include"/>
-					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
-					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -115,6 +116,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
+					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/build"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/include/opencv"/>
@@ -163,12 +166,11 @@
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/optflow/include"/>
 					<Add directory="/Users/sravanchennuri/opencv-3.4.1/modules/stitching/include"/>
-					<Add directory="/Users/sravanchennuri/dlib/dlib/.."/>
-					<Add directory="/Library/Frameworks/Mono.framework/Headers"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -193,6 +195,7 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -217,6 +220,7 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -729,31 +733,16 @@
 		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\dlib\dlib\"/>
 		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\..\..\dlib\dlib\"/>
-		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
+		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/find_blas.cmake">
 			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
 		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/release_build_by_default">
 			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
-			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
-		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/find_blas.cmake">
-			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
-		</Unit>
 		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/set_compiler_specific_options.cmake">
 			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/release_build_by_default">
-			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
-		</Unit>
 		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/use_cpp_11.cmake">
-			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
-		</Unit>
-		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../dlib/dlib/cmake_utils/find_blas.cmake">
 			<Option virtualFolder="CMake Files\..\..\dlib\dlib\cmake_utils\"/>
 		</Unit>
 		<Unit filename="/Users/sravanchennuri/CLionProjects/head_pose/../../opencv-3.4.1/build/OpenCVConfig-version.cmake">

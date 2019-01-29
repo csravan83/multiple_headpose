@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="head_pose" targetName="head_pose" />
       <config projectName="head_pose" targetName="dlib" />
@@ -12,10 +12,162 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da22f3c-d5a9-4b4e-86b9-9f0d3ddeb525" name="Default" comment="" />
+    <list default="true" id="4da22f3c-d5a9-4b4e-86b9-9f0d3ddeb525" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/bsp/bsp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/data_io/mnist.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jccolor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jchuff.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcinit.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcparam.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcphuff.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jcsample.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdinput.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdphuff.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jdsample.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jerror.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctint.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jidctred.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jquant1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jquant2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/external/libjpeg/jutils.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_http.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_http.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_iostream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/server/server_kernel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/svm/auto.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/svm/auto.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/async.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/async.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/timer/timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/timer/timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/CMakeFiles/dlib.dir/unicode/unicode.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/CMakeFiles/cpp11_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/libcpp11_test.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/cpp11_test_build/libcpp11_test.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/dlib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/dlib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/libdlib.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dlib_build/dlib/libdlib.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/head_pose" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/head_pose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/head_pose.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/head_pose.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,23 +176,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="20" column="118" lean-forward="true" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+            <state relative-caret-position="-456">
+              <caret line="159" column="43" selection-start-line="159" selection-start-column="43" selection-end-line="159" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+                <marker date="1548767729572" expanded="true" signature="5483:7891" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,12 +208,21 @@
       <find>temp</find>
       <find>im</find>
       <find>reprojectdst</find>
+      <find>rectangle</find>
+      <find>euler</find>
       <find>size</find>
+      <find>pose_ma</find>
+      <find>pose_mat</find>
+      <find>rotation_mat</find>
+      <find>full_objec</find>
     </findStrings>
     <replaceStrings>
       <replace>object_pts</replace>
       <replace>im</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,53 +232,40 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="720" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="head_pose" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
               <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
             </path>
             <path>
-              <item name="head_pose" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
               <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
               <item name="head_pose" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="head_pose" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
               <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
               <item name="head_pose" type="462c0819:PsiDirectoryNode" />
               <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
@@ -148,22 +296,25 @@
   </component>
   <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-O3 -mavx" PASS_PARENT_ENVS_2="true" PROJECT_NAME="head_pose" TARGET_NAME="head_pose" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="head_pose" RUN_TARGET_NAME="head_pose">
-      <envs />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="dlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="head_pose" TARGET_NAME="dlib" CONFIG_NAME="Debug">
-      <envs />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="head_pose" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="head_pose" TARGET_NAME="head_pose" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="head_pose" RUN_TARGET_NAME="head_pose">
-      <envs />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.head_pose" />
-      <item index="2" class="java.lang.String" itemvalue="Application.dlib" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.head_pose" />
+      <item itemvalue="Application.dlib" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,261 +337,62 @@
       <workItem from="1547038943669" duration="66000" />
       <workItem from="1548146222083" duration="1143000" />
       <workItem from="1548155358314" duration="1292000" />
-      <workItem from="1548157423801" duration="7826000" />
+      <workItem from="1548157423801" duration="10772000" />
+      <workItem from="1548223226349" duration="8025000" />
+      <workItem from="1548597887799" duration="328000" />
+      <workItem from="1548598972161" duration="764000" />
+      <workItem from="1548625856062" duration="8944000" />
+      <workItem from="1548752073522" duration="7364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34364000" />
+    <option name="totallyTimeSpent" value="62735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07892882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14306152" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32647464" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="CMake" order="8" weight="0.32784638" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28395063" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.34979424" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="49" lean-forward="true" selection-start-line="175" selection-start-column="49" selection-end-line="175" selection-end-column="49" />
+        <state relative-caret-position="-456">
+          <caret line="159" column="43" selection-start-line="159" selection-start-column="43" selection-end-line="159" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2490">
-          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="181" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="174" column="86" lean-forward="true" selection-start-line="174" selection-start-column="86" selection-end-line="174" selection-end-column="86" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="172" column="0" lean-forward="true" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" column="118" lean-forward="true" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1548767729572" expanded="true" signature="5483:7891" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/Users/sravanchennuri/dlib/dlib/.."
+  "/Library/Frameworks/Mono.framework/Headers"
   "/Users/sravanchennuri/opencv-3.4.1/build"
   "/Users/sravanchennuri/opencv-3.4.1/include"
   "/Users/sravanchennuri/opencv-3.4.1/include/opencv"
@@ -58,8 +60,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include"
   "/Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/optflow/include"
   "/Users/sravanchennuri/opencv-3.4.1/modules/stitching/include"
-  "/Users/sravanchennuri/dlib/dlib/.."
-  "/Library/Frameworks/Mono.framework/Headers"
   )
 
 # Targets to which this target links.
