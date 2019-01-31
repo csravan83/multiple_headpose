@@ -736,4 +736,10 @@ CMakeFiles/head_pose.dir/main.cpp.o
  /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/facemarkLBF.hpp
  /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/facerec.hpp
  /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/predict_collector.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/feature.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/onlineBoosting.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/onlineMIL.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/tldDataset.hpp
+ /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/tracker.hpp
  /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xfeatures2d/include/opencv2/xfeatures2d/cuda.hpp

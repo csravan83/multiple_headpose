@@ -735,5 +735,11 @@ CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_c
 CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/facemarkLBF.hpp
 CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/facerec.hpp
 CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/face/include/opencv2/face/predict_collector.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/feature.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/onlineBoosting.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/onlineMIL.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/tldDataset.hpp
+CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/tracking/include/opencv2/tracking/tracker.hpp
 CMakeFiles/head_pose.dir/main.cpp.o: /Users/sravanchennuri/opencv-3.4.1/opencv_contrib-3.4.1/modules/xfeatures2d/include/opencv2/xfeatures2d/cuda.hpp
 
