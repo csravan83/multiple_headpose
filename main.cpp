@@ -130,10 +130,8 @@ void deserialize_shape_predictor(dlib::shape_predictor &predictor){
 bool isOverlap ( dlib::rectangle &face, cv::Rect tracker_rect ){
 
     cv::Rect face_rect = dlibRectangleToOpenCV(face);
-
     bool intersects;
     intersects = ((face_rect & tracker_rect).area() > 0);
-
     return intersects;
 }
 
@@ -145,15 +143,33 @@ bool is_Tracked( dlib::rectangle &face, cv::Ptr<cv::MultiTracker> &multiTracker 
     return false;
 }
 
-int main()
-{
-    cv::VideoCapture cap("/Users/sravanchennuri/Desktop/Research_Code/tom.mp4");
-   //cv::VideoCapture cap(0);
+class Face {
 
-    cv::Mat first_frame;
-    cv::Ptr<cv::MultiTracker> multiTracker =  cv::MultiTracker::create();
+public:
+    cv::Rect cvRect;
+    dlib::rectangle dlibRect;
+
+    double x;
+    double y;
+
+    double t;
+    const double theta1 = (CV_PI)/8;
+
+    double roll;
+    double pitch;
+    double yaw;
+
+    double rollRadians;
+    double pitchRadians;
+    double yawRadians;
+
+    cv::Mat rotation_vec;                //3 x 3 R
+    cv::Mat translation_vec;             //3 x 1 T
+
+    int face_id;
 
     cv::Mat rotation_mat;
+
     //temp buf for decomposeProjectionMatrix()
     cv::Mat out_intrinsics = cv::Mat(3, 3, CV_64FC1);
     cv::Mat out_rotation = cv::Mat(3, 3, CV_64FC1);
@@ -161,148 +177,196 @@ int main()
 
     cv::Mat pose_mat = cv::Mat(3, 4, CV_64FC1);     //3 x 4 R | T
     cv::Mat euler_angle = cv::Mat(3, 1, CV_64FC1);
+    std::vector<cv::Point3d> object_pts;
+
+    Face(dlib::rectangle r) {
+        this->dlibRect = r;
+        this->cvRect = dlibRectangleToOpenCV(r);
+        this->object_pts = get_3d_model_points();
+    }
+
+
+    std::vector<cv::Point2d> calculateFeaturePoints(cv::Mat frame, dlib::shape_predictor predictor) {
+        dlib::cv_image<dlib::bgr_pixel> cimg(frame);
+        full_object_detection shape = predictor(cimg, this->dlibRect);
+
+        std::vector<cv::Point2d> img_points = get_2d_image_points(shape);
+        this->x = img_points[0].x;
+        this->y = img_points[0].y;
+
+        //draw features
+        for (unsigned int i = 0; i < 68; ++i) {
+            cv::circle(frame, cv::Point(shape.part(i).x(), shape.part(i).y()), 2, cv::Scalar(255, 0, 255), -1);
+        }
+
+        return img_points;
+    }
+
+    void calculatePose(cv::Mat im, dlib::shape_predictor predictor) {
+
+        double focal_length = im.cols;
+        std::vector<cv::Point2d> image_pts = this->calculateFeaturePoints(im, predictor);
+
+        cv::Mat cam_matrix = get_camera_matrix(focal_length, cv::Point2d(im.cols / 2, im.rows / 2));
+        cv::Mat dist_coeffs = cv::Mat::zeros(4, 1, cv::DataType<double>::type);
+
+        //cv::solvePnP(object_pts, image_pts, cam_matrix, dist_coeffs, rotation_vec, translation_vec); //calc pose
+        cv::solvePnPRansac(object_pts, image_pts, cam_matrix, dist_coeffs, rotation_vec, translation_vec, false, 1000, 8.0, 0.99, cv::noArray() , cv::SOLVEPNP_UPNP); //calc pose
+
+        std::vector<cv::Point3d> nose_end_point3D;
+        std::vector<cv::Point2d> nose_end_point2D;
+        nose_end_point3D.push_back(cv::Point3d(0.0, 0.0, 1000.0));
+
+        cv::projectPoints(nose_end_point3D, rotation_vec, translation_vec, cam_matrix, dist_coeffs, nose_end_point2D);
+        cv::line(im, image_pts[0], nose_end_point2D[0], cv::Scalar(255, 0, 0), 2);
+
+        cv::Rodrigues(rotation_vec, rotation_mat);
+        cv::hconcat(rotation_mat, translation_vec, pose_mat);
+        cv::decomposeProjectionMatrix(pose_mat, out_intrinsics, out_rotation, out_translation, cv::noArray(), cv::noArray(), cv::noArray(), euler_angle);
+        
+        this->roll = euler_angle.at<double>(0);
+        this->pitch = euler_angle.at<double>(1);
+        this->yaw = euler_angle.at<double>(2);
+
+        this->rollRadians = roll * (CV_PI)/180;
+        this->pitchRadians = pitch * (CV_PI)/180;
+        this->yawRadians = yaw * (CV_PI)/180;
+    }
+
+    void updateTracker(std::unordered_map<int, double> map, cv::Ptr<cv::MultiTracker> multiTracker) {
+        for(int j = 0; j < multiTracker->getObjects().size(); j++  ){
+            if ( isOverlap(this->dlibRect, multiTracker->getObjects()[j]) ){
+                map[j] = this->pitchRadians;
+                this->face_id = j;
+            }
+        }
+    }
+
+    void printFace(){
+        cout<<"Face_ID: "<< this->face_id <<endl;
+        cout<<"X: " << this->x << ", " << "Y: " << this->y <<endl;
+        cout<<"Roll: " << this->roll << endl;
+        cout<<"Pitch: " << this->pitch << endl;
+        cout<<"Yaw: " << this->yaw << endl;
+    }
+
+
+};
+
+
+int main(){
+
+    int frameCount = 0;
+    cv::VideoCapture cap("/Users/sravanchennuri/Desktop/Research_Code/tom.mp4");
+
+    cv::Mat first_frame;
+
 
     if (!cap.isOpened())
     {
         std::cout << "Unable to open" << std::endl;
         return EXIT_FAILURE;
     }
+
     dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
     dlib::shape_predictor predictor;
     deserialize_shape_predictor(predictor);
 
-/*
+    std::unordered_map <int,  double> map;
+    std::vector<std::unordered_map <int, double>> map_list;
+
     cap>>first_frame;
     cv::resize(first_frame, first_frame, cv::Size(), 1.0/2, 1.0/2);
 
     dlib::cv_image<dlib::bgr_pixel> fimg(first_frame);
-    std::vector<dlib::rectangle> first_frame_faces = detector(fimg); // Detect faces
+    std::vector<dlib::rectangle> first_frame_faces = detector(fimg);
 
+    cv::Ptr<cv::MultiTracker> multiTracker =  cv::MultiTracker::create();
     for (int i = 0; i < first_frame_faces.size(); ++i) {
         multiTracker->add (createTrackerByName("CSRT"), first_frame, cv::Rect2d( dlibRectangleToOpenCV(first_frame_faces[i])) );
     }
-    //multiTracker->add (createTrackerByName("CSRT"), first_frame, cv::Rect2d( dlibRectangleToOpenCV(first_frame_faces[0])) );
-*/
-    std::vector<dlib::rectangle> faces;
-    std::vector<cv::Point3d> object_pts = get_3d_model_points();
-    std::vector<cv::Point2d> image_pts; //2D ref points(image coordinates), referenced from detected facial feature
 
-    cv::Mat rotation_vec;                //3 x 3 R
-    cv::Mat translation_vec;             //3 x 1 T
-    std::vector<std::unordered_map <long long, double>> map_list;
+    double t1;
+    double t2;
+    double thetaConst = (CV_PI)/8;
 
-    while (1)
+    while (frameCount<83)
     {
-        std::unordered_map <long long, double> map;
+        std::vector<Face> faces;
+        cv::Mat frame;
+        cap >> frame;
+        cv::resize(frame, frame, cv::Size(), 1.0/2, 1.0/2);
 
-        cv::Mat im;
-        cap >> im;
-        cv::resize(im, im, cv::Size(), 1.0/2, 1.0/2);
+        dlib::cv_image<dlib::bgr_pixel> cimg(frame);
+        std::vector<dlib::rectangle> dlibfaces = detector(cimg); // Detect faces
 
-        std::vector<cv::Scalar> colors;
-
-        dlib::cv_image<dlib::bgr_pixel> cimg(im);
-        std::vector<dlib::rectangle> faces = detector(cimg); // Detect faces
-/*
- *
-        for(int i=0;i<faces.size(); i++){
-            std::cout<<faces[i]<<endl;
+        for(dlib::rectangle f : dlibfaces) {
+            faces.push_back(Face(f));
         }
-        */
-        getRandomColors(colors, faces.size());
+        cout<<"FrameNumber: "<<frameCount<<endl;
 
-        // draw tracked objects
-        for(unsigned long i=0; i < faces.size(); ++i)
-        {
-            if ( !is_Tracked(faces[i], multiTracker) ){
-                multiTracker->add (createTrackerByName("KCF"), im, cv::Rect2d( dlibRectangleToOpenCV(faces[i])) );
+        for(unsigned long i=0; i < faces.size(); ++i){
+
+            if ( !is_Tracked(faces[i].dlibRect, multiTracker) ){
+                multiTracker->add (createTrackerByName("CSRT"), frame, cv::Rect2d( faces[i].cvRect ));
             }
             //track features
-            full_object_detection shape = predictor(cimg, faces[i]);
-            cv::Rect rect_in_cv = dlibRectangleToOpenCV(faces[i]);
-            cv::rectangle(im, rect_in_cv, cv::Scalar(0,0,255), 2);
+            cv::Rect rect_in_cv = faces[i].cvRect;
+            cv::rectangle(frame, rect_in_cv, cv::Scalar(0,0,255), 2);
 
-            //draw features
-            for (unsigned int i = 0; i < 68; ++i) {
-                cv::circle(im, cv::Point(shape.part(i).x(), shape.part(i).y()), 2, cv::Scalar(255, 0, 255), -1);
-            }
-
-            image_pts = get_2d_image_points(shape);
-            double focal_length = im.cols;
-
-            cv::Mat cam_matrix = get_camera_matrix(focal_length, cv::Point2d(im.cols / 2, im.rows / 2));
-            cv::Mat dist_coeffs = cv::Mat::zeros(4, 1, cv::DataType<double>::type);
-
-            cv::solvePnP(object_pts, image_pts, cam_matrix, dist_coeffs, rotation_vec, translation_vec); //calc pose
-
-            std::vector<cv::Point3d> nose_end_point3D;
-            std::vector<cv::Point2d> nose_end_point2D;
-            nose_end_point3D.push_back(cv::Point3d(0.0, 0.0, 1000.0));
-
-            cv::projectPoints(nose_end_point3D, rotation_vec, translation_vec, cam_matrix, dist_coeffs, nose_end_point2D);
-            cv::line(im, image_pts[0], nose_end_point2D[0], cv::Scalar(255, 0, 0), 2);
-
-            cv::Rodrigues(rotation_vec, rotation_mat);
-
-            cv::hconcat(rotation_mat, translation_vec, pose_mat);
-            cv::decomposeProjectionMatrix(pose_mat, out_intrinsics, out_rotation, out_translation, cv::noArray(), cv::noArray(), cv::noArray(), euler_angle);
-
+            faces[i].calculatePose(frame, predictor); //getPose
 
             outtext << "Number of detected faces " << std::setprecision(3) << faces.size();
-            cv::putText(im, outtext.str(), cv::Point(50, 20), cv::FONT_HERSHEY_SIMPLEX, 0.75, cv::Scalar(0, 255, 0));
+            cv::putText(frame, outtext.str(), cv::Point(50, 20), cv::FONT_HERSHEY_SIMPLEX, 0.75, cv::Scalar(0, 255, 0));
             outtext.str("");
 
             for(int j = 0; j < multiTracker->getObjects().size(); j++  ){
-                    if ( isOverlap(faces[i], multiTracker->getObjects()[j]) )
-                    {
-                        //multiTracker =  cv::MultiTracker::create();
-                        map[j] = euler_angle.at<double>(0);
-                    }
-            }
-
-            //image_pts.clear();
-        }
-        //map_list.push_back(map);
-        multiTracker->update(im);
-
-        for(unsigned j=0; j<multiTracker->getObjects().size(); j++){
-            cv::rectangle(im, multiTracker->getObjects()[j], colors[j], 2, 1);
-        }
-/*
-        for(int i = 0; i < multiTracker->getObjects().size(); i++  ){
-            for(int j=0; j < faces.size(); j++ ){
-                if ( isOverlap(faces[j], multiTracker->getObjects()[i]) )
-                {
-                     map[i] = get_euler_angles(rotation_vec, translation_vec);
-//                    multiTracker->clear();
-//                    multiTracker =  cv::MultiTracker::create();
-
+                if ( isOverlap(faces[i].dlibRect, multiTracker->getObjects()[j]) ){
+                    map[j] = faces[i].pitchRadians;
                 }
             }
-        }*/
+            faces[i].updateTracker(map, multiTracker);
+            faces[i].printFace();
 
-    if(faces.size()>1){
-        map_list.push_back(map);
-    }
-
-//        for (auto x : map)
-//            cout << x.first << " -> " << x.second << endl;
-        //press esc to end
-
-        double cosine = 0;
-        for( auto k: map_list ){
-            cout <<"map_list: "<< k.at(0) << "-> " << k.at(1) << endl;
-            cosine =  acos(k.at(0) - k.at(1));
-            if( cosine > 0 && faces.size()>1 ){
-                outtext << "Interacting " << std::setprecision(3);
-                cv::putText(im, outtext.str(), cv::Point(50, 40), cv::FONT_HERSHEY_SIMPLEX, 0.75, cv::Scalar(0, 255, 0));
-                outtext.str("");
+            if(faces[i].face_id == 0) {
+                //t1 = - (faces[i].x) / cos(faces[i].pitchRadians - thetaConst);
+                t1 = - (faces[i].y) / sin(faces[i].pitchRadians + thetaConst);
+            }
+            else if(faces[i].face_id == 1){
+                //t2 = - (faces[i].x) / cos(faces[i].pitchRadians - thetaConst);
+                t2 =  (faces[i].y) / sin(faces[i].pitchRadians + thetaConst);
             }
 
         }
+        cout<<"t1: "<< t1 << endl;
+        cout<<"t2: "<< t2 << endl;
 
-        cv::imshow("demo", im);
+        cout << endl;cout << endl;
 
+        multiTracker->update(frame); //update tracker
+
+        if(faces.size()>1){
+            map_list.push_back(map);
+        }
+
+        double cosine;
+        for( auto k: map_list ){
+            //cout <<"map_list: "<< k.at(0) << "-> " << k.at(1) << endl;
+            //cout << k.first << " -> " << k.second << endl;
+            cosine =  cos( k.at(0) - k.at(1) );
+            if( faces.size() > 1 && cosine < 0 ){
+                outtext << "Interacting " << std::setprecision(3);
+                cv::putText(frame, outtext.str(), cv::Point(50, 40), cv::FONT_HERSHEY_SIMPLEX, 0.75, cv::Scalar(0, 255, 0));
+                outtext.str("");
+            }
+        }
+
+        frameCount++;
+        outtext << "FrameCount:  " << frameCount << std::setprecision(3);
+        cv::putText(frame, outtext.str(), cv::Point(50, 60), cv::FONT_HERSHEY_SIMPLEX, 0.75, cv::Scalar(0, 255, 0));
+        outtext.str("");
+
+        cv::imshow("demo", frame);
         unsigned char key = cv::waitKey(1);
         if (key == 27)
         {

@@ -17,8 +17,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/head_pose.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/head_pose" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/head_pose" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape_predictor_5_face_landmarks.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +40,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="338" column="21" selection-start-line="338" selection-start-column="21" selection-end-line="338" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1548959510673" expanded="true" signature="6922:11300" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,10 +63,22 @@
       <find>euler</find>
       <find>size</find>
       <find>pose_ma</find>
-      <find>pose_mat</find>
       <find>rotation_mat</find>
       <find>full_objec</find>
       <find>rotation_vec</find>
+      <find>resize</find>
+      <find>double</find>
+      <find>map_list</find>
+      <find>long long</find>
+      <find>cap</find>
+      <find>object_pts</find>
+      <find>pose_mat</find>
+      <find>img</find>
+      <find>faces</find>
+      <find>image_point</find>
+      <find>image_pts</find>
+      <find>theta</find>
+      <find>image_points</find>
     </findStrings>
     <replaceStrings>
       <replace>object_pts</replace>
@@ -106,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,28 +122,18 @@
               <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
               <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
             </path>
-            <path>
-              <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
-              <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="head_pose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="head_pose" type="b2602c69:ProjectViewProjectNode" />
-              <item name="head_pose" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="head_pose" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,6 +169,9 @@
       <item itemvalue="Application.dlib" />
     </list>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",KIND" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -198,43 +199,96 @@
       <workItem from="1548598972161" duration="764000" />
       <workItem from="1548625856062" duration="8944000" />
       <workItem from="1548752073522" duration="8665000" />
-      <workItem from="1548769224042" duration="19901000" />
+      <workItem from="1548769224042" duration="36864000" />
+      <workItem from="1549369753383" duration="142000" />
+      <workItem from="1549635591556" duration="131000" />
+      <workItem from="1549722159194" duration="140000" />
+      <workItem from="1549806531316" duration="167000" />
+      <workItem from="1549870796291" duration="4098000" />
+      <workItem from="1550042973996" duration="5725000" />
+      <workItem from="1550146055500" duration="4444000" />
+      <workItem from="1550219393277" duration="8664000" />
+      <workItem from="1550305916271" duration="20000" />
+      <workItem from="1550403960383" duration="18158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83937000" />
+    <option name="totallyTimeSpent" value="142589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13233191" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32647464" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3100137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47462276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="CMake" order="8" weight="0.32784638" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.28395063" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.34979424" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.34979424" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.34567901" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" visible="true" weight="0.3251029" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
+      <window_info id="Structure" order="1" weight="0.24964234" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3100137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47462276" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="CMake" order="8" weight="0.32784638" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28395063" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.34567901" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.3251029" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="Exception" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/dlib/dlib/opencv/cv_image.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/unordered_map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="1435" selection-start-line="1435" selection-end-line="1435" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -242,13 +296,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/opencv-3.4.1/modules/core/include/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="1828" selection-start-line="1828" selection-end-line="1828" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
+        <state relative-caret-position="187">
+          <caret line="338" column="21" selection-start-line="338" selection-start-column="21" selection-end-line="338" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1548959510673" expanded="true" signature="6922:11300" ph="{...}" />
           </folding>
         </state>
       </provider>
